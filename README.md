@@ -2,7 +2,7 @@
 In deze repository staan de app en de antwoorden op de opdrachten van Security Advanced voor het onderdeel Yellow Teaming Level C.
 
 
-##Postman (deel 1)
+## Postman (deel 1)
 
 Om een access token bij de STS server op te vragen moeten we natuurlijk weten met welke endpoint we moeten communiceren.
 Deze info vinden we terug in https://ventielshop.dubbadub.be:8081/.well-known/openid-configuration
@@ -24,7 +24,7 @@ Als response vekregen we een access token.
 ![alt text](screenshots/Postman_post.png "POST-request en response")
 
 
-##Run client app
+## Run client app
 
 Voer volgende commando's uit in een terminal venster:
 
@@ -36,7 +36,7 @@ Het client programma gaat een access token opvragen bij de STS server.
 Vervolgens wordt met dit access token de "/fiets" endpoint van de API aangsproken.
 
 
-##Postman (deel 2)
+## Postman (deel 2)
 
 We gaan de inhoud van onze access token inspecteren op jwt.io.
 Het is de bedoeling om info van het access token aan te passen en met deze gewijzigde inhoud alsnog toegang te krijgen tot de API.
