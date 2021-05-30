@@ -7,7 +7,7 @@ In deze repository staan de app en de antwoorden op de opdrachten van Security A
 Om een access token bij de STS server op te vragen moeten we natuurlijk weten met welke endpoint we moeten communiceren.
 Deze info vinden we terug in https://ventielshop.dubbadub.be:8081/.well-known/openid-configuration
 
-![alt text](./screenshots/Postman well-known.png ".well-known/openid-configuration")
+![alt text](screenshots/Postman_well-known.png ".well-known/openid-configuration")
 
 
 Hier vonden we de url naar de nodige eindpoint (https://ventielshop.dubbadub.be:8081/connect/token)
@@ -21,7 +21,7 @@ In de body van de POST-request gaven we volgend parameters mee:
 
 Als response vekregen we een access token.
 
-![alt text](./screenshots/Postman post.png "POST-request en response")
+![alt text](screenshots/Postman_post.png "POST-request en response")
 
 
 ##Run client app
@@ -48,9 +48,9 @@ We merkten dat dit niet lukte wanneer we de issuer aanpasten, maar wel wanneer w
 
 vb scope wijziging
 
-![alt text](./screenshots/Postman scope.png "Scopewijziging in access token")
+![alt text](screenshots/Postman_scope.png "Scopewijziging in access token")
 
-![alt text](./screenshots/Postman scope_2.png "API call met gewijzigde scope")
+![alt text](screenshots/Postman_scope_2.png "API call met gewijzigde scope")
 
 
 
